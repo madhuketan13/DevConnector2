@@ -4,10 +4,10 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: USER-SERVICE
-          uri: lb://USER-SERVICE
+        - id: AUTH-SERVICE
+          uri: lb://AUTH-SERVICE
           predicates:
-            - Path= /user/**
+            - Path= /auth/**
         - id: PROFILE-SERVICE
           uri: lb://PROFILE-SERVICE
           predicates:
