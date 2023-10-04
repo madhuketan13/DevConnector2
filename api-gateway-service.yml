@@ -11,15 +11,15 @@ spring:
         - id: PROFILE-SERVICE
           uri: lb://PROFILE-SERVICE
           predicates:
-            - Path= /profile/**
+            - Path= /api/profile/**
         - id: EDUCATION-SERVICE
           uri: lb://EDUCATION-SERVICE
           predicates:
-            - Path= /education/**
+            - Path= /api/education/**
         - id: EXPERIENCE-SERVICE
           uri: lb://EXPERIENCE-SERVICE
           predicates:
-            - Path= /experience/**
+            - Path= /api/experience/**
 server:
   port: 9191
 management:
