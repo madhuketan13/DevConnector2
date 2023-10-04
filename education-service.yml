@@ -11,6 +11,8 @@ spring:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.MySQLDialect
+  application:
+    name: EDUCATION-SERVICE
   jackson:
     serialization:
       fail-on-empty-beans: false
