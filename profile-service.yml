@@ -13,6 +13,8 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
+  application:
+    name: PROFILE-SERVICE
 server:
   port: 0
   error:
