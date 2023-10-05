@@ -27,4 +27,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 api:
   user: http://AUTH-SERVICE/api/authenticate
+  user1: http://AUTH-SERVICE/api/authenticate/user
     
