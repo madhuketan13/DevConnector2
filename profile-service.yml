@@ -28,6 +28,6 @@ eureka:
 api:
   user: http://AUTH-SERVICE/api/authenticate
   user1: http://AUTH-SERVICE/api/authenticate/user
-  educationURL: http://EDUCATION-SERVICE/api/education
-  experienceURL: http://EXPERIENCE-SERVICE/api/experience
+  education: http://EDUCATION-SERVICE/api/education
+  experience: http://EXPERIENCE-SERVICE/api/experience
     
